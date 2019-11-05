@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
           I've been designing digital products and experiences for over 10 years now. This will eventually be a collection of some thoughts about design.
         </p>
         <a href="https://www.linkedin.com/in/andrewglassett/">
-          <Button marginTop="35px">LinkedIn</Button>
+          <Button marginTop="35px">Look at LinkedIn</Button>
         </a>
       </Layout>
     )
