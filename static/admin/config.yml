@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: andrew-blog
+  repo: andrewglassett/andrew-blog
 
 media_folder: static/assets
 public_folder: assets

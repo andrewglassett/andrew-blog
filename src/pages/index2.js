@@ -1,7 +1,9 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
@@ -24,6 +26,10 @@ class IndexPage extends React.Component {
         <p>
           I've been designing digital products and experiences for over 10 years now. This will eventually be a collection of some thoughts about design.
         </p>
+
+        <Link to="/blog/">
+          <Button marginTop="35px">Go to Blog</Button>
+        </Link>
       </Layout>
     )
   }
